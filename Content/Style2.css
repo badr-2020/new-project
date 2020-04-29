@@ -1,0 +1,112 @@
+﻿@font-face {
+    font-family:myfont;
+    src:url('font/2.ttf') 
+}
+
+@font-face {
+    font-family:myfont2;
+    src:url('font/FreeSerif.ttf') 
+}
+
+body {
+    padding-top:100px;
+}
+
+.navbar-default {
+    background-color: #0c5c82;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #e7e7e7;
+    font-family:myfont;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+    height: 75px;
+    padding-top: 10px;
+}
+
+.myfooter{
+    background-color:cornflowerblue ;
+    padding-top:5px;
+    font-family:myfont;
+    text-align:justify ;
+
+}
+
+.subfooter{
+    background-color:#0c5c82 ;
+    color:white;
+    padding:10px;
+    margin-bottom:0px;
+    text-align:center;
+}
+
+.myfooter a{
+    color:azure ;
+}
+
+
+.myfooter h3,ul,p{
+    margin-bottom:20px;
+    
+}
+
+.logo-size{
+    width:100px;
+    height:62px;
+    margin-top:-7px;
+}
+
+.mainh1{
+    font-family:myfont ;
+    font-size:30px;
+}
+.mainh2{
+    font-family:myfont2 ;
+    font-size:20px;
+    color:gray ;
+}
+
+#searchname {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url('../images/view.gif');
+    background-repeat:no-repeat;
+    background-position:5px 15px;
+    padding:12px 20px 12px 12px;
+    transition:width 0.4s ease-in-out;
+}
+#searchname:focus {
+    width:100%;
+}
+
+.img-size{
+    font-size:80px;
+}
+.navbar-user{
+    padding:10px;
+    padding-bottom:0px;
+    width:200px;
+}
+@media (min-width: 992px){
+.col-md-3 {
+width: 23%;
+} 
+}
+
+
+
+
+
+
